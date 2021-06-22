@@ -1,38 +1,45 @@
 body {
-    background-color: #FFBA08;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFBE0B;
+    font-family:inherit;
+}
+h1 {
+    text-align: center;
 }
 
-
 .pizza {
-    border: 1px solid #E85D04;
+    border: 1px solid #FB5607;
     padding: 1cm;
     margin: 1cm;
     margin-bottom: 0.5cm;
     border-radius: 1cm;
+    margin-top: 1cm;
+   
     
 }
 
 .medium_pizza {
-    background-color: #9D0208;
-    flex: 2
+    background-color: #FF006E;
+    flex: 1.5
 
     
 }
 
 .Large_pizza {
-    background-color: #E85D04;
-    flex: 2
+    background-color: #8338EC;
+    flex: 1.5
 
 }
 
 .small_pizza {
-    background-color: #6A040F;
-    flex : 1
+    background-color: #3A86FF;
+    flex : 1.5
 }
 
+
+
 .contact_us {
-    background-color: #370617;
+    background-color:#8F2D56 ;
+    text-align: center;
 }
 .special {
     background-color: violet;
@@ -51,7 +58,7 @@ body {
 
 @media (min-width: 960px) {
     body {
-        background-color:white;
+        background-color:#FFBE0B;
     }
     .pizzas {
         display: flex;
